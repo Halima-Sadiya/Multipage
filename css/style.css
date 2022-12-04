@@ -1,0 +1,621 @@
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=Open+Sans:wght@300;400;700&display=swap');
+
+/* font 
+font-family: 'Damion', cursive;
+font-family: 'Open Sans', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    background-color: #E4E4E4;
+}
+ 
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* nav part start  */
+nav{
+    background-color: black;
+}
+
+.nav-content{
+    display: flex;
+}
+
+.logo{
+    margin: 30px 0;
+    margin-right: 100px;
+}
+
+nav .menu ul li{
+    display: inline-block;
+    padding: 0 40px;
+    margin-top: -20px;
+}
+
+nav .menu ul li a{
+    color: white;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav .menu ul li a:hover{
+    color: #c79c60;
+    border-bottom: 3px solid #c79c60;
+}
+
+/* nav part end  */
+
+/* banner part start  */
+#banner{
+    background: url(../images/banner.png) no-repeat center/cover;
+    height: 600px;
+    padding: 200px 0;
+}
+
+.banner-text{
+    text-align: center;
+}
+
+.banner-text span{
+    color: white;
+    font-size: 70px;
+    font-family: 'Damion', cursive;
+}
+
+.banner-text h1{
+    color: #c79c60;
+    font-size: 60px;
+}
+
+.banner-text p{
+    width: 600px;
+    color: grey;
+    text-align: justify;
+    font-size: 18px;
+    margin: 0 auto;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+
+.button{
+    margin: 0 auto;
+    width: 200px;
+    height: 45px;
+    background: url(../images/button.png) no-repeat center/cover;
+    border-radius: 13px;
+    text-align: center;
+}
+
+.button a{
+    color: #c79c60;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+}
+
+.button a:hover{
+    color: white;
+}
+/* banner part end  */
+
+/* coffee part start  */
+#coffee{
+    margin: 130px 0;
+    display: flex;
+    height: 300px;
+}
+
+.coffee-text{
+    width: 65%;
+    margin-right: 10%;
+}
+
+.coffee-text h3{
+    color: #c79c60;
+    font-size: 45px;
+    font-weight: lighter;
+    font-family: 'Damion', cursive;
+}
+
+.coffee-text h4{
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+.coffee-text p{
+    text-align: justify;
+    margin: 30px 0;
+    font-size: 19px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.coffee-text .btn{
+    float: left;
+}
+
+.coffee-img{
+    width: 15%;
+}
+
+.coffee-img img{
+    width: 100%;
+    border: 10px solid white;
+    border-radius: 50%;
+    box-shadow:  0 15px 10px grey;
+}
+/* coffee part end  */
+
+/* popular part start  */
+#popular{
+    margin-bottom: 150px;
+}
+
+#popular h3{
+    color: #c79c60;
+    font-size: 45px;
+    font-weight: lighter;
+    font-family: 'Damion', cursive;
+}
+
+hr.hr{
+    border-top: #c79c60 2px solid;
+    margin-top: -25px;
+    width: 73%;
+    float: right;
+    margin-right: 45px;
+}
+
+.card{
+    display: inline-flex;
+}
+
+.card-1{
+    background-color: white;
+    width: 30%;
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.card-1:hover{
+    box-shadow: 2px 10px 20px gray;
+}
+
+.card-1:nth-child(2){
+    margin: 0 3%;
+    margin-top: 50px    ;
+}
+
+.card-1 img{
+    width: 100%;
+}
+
+.card h4{
+    color: #c79c60;
+    font-size: 40px;
+    font-family: 'Damion', cursive;
+    font-weight: lighter;
+}
+
+.card span{
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.card p{
+    width: 80%;
+    margin: 0 10%;
+    font-size: 17px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* popular part end  */
+
+/* special part start  */
+#special{
+    height: 600px;
+    padding-bottom: 200px;
+}
+
+#special h3{
+    color: #c79c60;
+    font-size: 45px;
+    font-weight: lighter;
+    font-family: 'Damion', cursive;
+}
+
+#special hr.hr{
+    width: 81%;
+    margin-top: -60px;
+}
+
+.special-img{
+    margin-top: 50px;
+}
+
+.img1{
+    width: 55%;
+    float: left;
+    border: 10px solid white;
+    margin-right: 4%;
+    position: relative;
+}
+
+.overlay{
+    width: 97%;
+    height: 50px;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px 10px;
+}
+
+.overlay h4{
+    font-size: 35px;
+    color: white;
+}
+
+.overlay p{
+    font-size: 20px;
+    color: white;
+}
+
+.img1 img{
+    width: 100%;
+    height: 500px;
+}
+
+.img2{
+    width: 35%;
+    float: left;
+    border: 10px solid white;
+    margin-bottom: 3.5%;
+    position: relative;
+}
+
+.img2 .overlay{
+    width: 95%;
+    height: 60px;
+}
+
+.img2 img{
+    width: 100%;
+    height: 230px;
+}
+
+.img3{
+    width: 15%;
+    float: left;
+    border: 10px solid white;
+    margin-right: 3.5%;
+    position: relative;
+}
+
+.img3 .overlay{
+    width: 90%;
+    height: 20px;
+}
+
+.img3 img{
+    width: 100%;
+    height: 200px;
+}
+
+.img4{
+    width: 15%;
+    float: left;
+    border: 10px solid white;
+    position: relative;
+}
+
+.img4 .overlay{
+    width: 90%;
+    height: 20px;
+}
+
+.img4 img{
+    width: 100%;
+    height: 200px;
+}
+/* special part end  */
+
+/* menu part start  */
+#menu{
+    height: 500px;
+}
+
+#menu h3{
+    color: #c79c60;
+    font-size: 45px;
+    font-weight: lighter;
+    font-family: 'Damion', cursive;
+}
+
+.menu{
+    margin-top: 50px;
+    display: inline-flex;
+}
+
+.menu-img{
+    width: 25%;
+    margin-right: 10%;
+}
+
+.menu-img img{
+    width: 100%;
+}
+
+.menu-text{
+    width: 62%;
+    text-align: justify;
+}
+
+.menu-text p{
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(75, 75, 75);
+}
+
+.menu-text ol li{
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 50px;
+    line-height: 1.5;
+}
+
+.menu-text ol li span{
+    color: #c79c60;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu-text .button{
+    float: left;
+    margin-top: 30px;
+}
+/* menu part end  */
+
+/* footer part start  */
+footer{
+    height: 250px;
+    background-color: #302f2f;
+    margin-top: 100px;
+    padding: 50px 0;
+    padding-bottom: 100px;
+}
+
+.footer{
+    display: inline-flex;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer .main-menu{
+    width: 20%;
+}
+
+.footer h4{
+    color: white;
+    font-size: 22px;
+}
+
+.footer p{
+    color: white;
+    margin-top: 20px;
+    line-height: 1.7;
+}
+
+.main-menu ul li{
+    color: white;
+    font-size: 18px;
+    line-height: 2;
+    margin: 20px;
+}
+
+.about-us{
+    width: 50%;
+    margin-left: 7%;
+    margin-right: 5%;
+}
+
+.social ul{
+    display: inline-flex;
+    margin-top: 50px;
+    height: 40px;
+    width: 40px;
+
+}
+
+.social ul li a{
+    background-color: rgb(90, 90, 90);
+    font-size: 20px;
+    margin-right: 20px;
+    padding: 10px 15px;
+    color: white;
+}
+
+.social ul li a:hover{
+    background-color: #b68036;
+    transition: all linear .3s;
+}
+/* footer part end  */
+
+.copyright{
+    height: 30px;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #000000;
+    color: white;
+}
+
+.copyright span{
+    color: #c79c60;
+    font-size: 20px;
+}
+
+
+
+/* contact page design  */
+#form{
+    height: 500px;
+}
+
+.form{
+    width: 45%;
+    float: left;
+}
+
+#form h3{
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.form input{
+    width: 90%;
+    height: 50px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    border: 1px solid #b68036;
+    border-radius: 10px;
+}
+
+.form textarea{
+    border: 1px solid #b68036;
+    resize: none;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: gray;
+    font-size: 15px;
+    border-radius: 10px;
+    width: 90%;
+}
+
+.form .button{
+    float: left;
+}
+
+
+/* menu page design  */
+
+.menu-page{
+    display: flex;
+    height: 600px;
+    margin-top: 50px;
+    padding-bottom: 300px;
+}
+
+.menuList{
+    background: url(../images/menu-bg.png) no-repeat center/cover;
+    width: 250px;
+    height: 400px;
+}
+
+.menuList ul li{
+    line-height: 2.2;
+    text-align: center;
+}
+
+.menuList ul li a{
+    color: #7c6a51;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    margin-top: 1px;
+}
+
+.menuList ul li a:hover{
+    color: #c79c60;
+}
+
+.menuBar{
+    width: 60%;
+    margin-left: 5%;
+}
+
+.menuBar1{
+    background-color: white;
+    padding: 15px;
+    height: 140px;
+    margin-bottom: 30px;
+}
+
+.menuBar1 img{
+    float: left;
+    margin-right: 20px;
+}
+
+.menuBar1 h4{
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px 0 0 0;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.menuBar1 p{
+    width:500px;
+    font-size: 18px;
+    color: gray;
+}
+
+.menuBar1 .buttonRound{
+    width: 50px;
+    height: 50px;
+    float: right;
+    background-color:#302f2f;
+    margin-top: -100px;
+    margin-right: 30px;
+    padding: 30px;
+    border-radius: 100%;
+}
+
+.menuBar1 .buttonRound span{
+    font-size: 15px;
+    
+}
+
+.menuBar1 .buttonRound a{
+    color: rgb(160, 160, 160);
+    font-size: 45px;
+    padding: 15px;
+    margin-left: -18px;
+    border-radius: 100%;
+    border: 2px solid rgb(160, 160, 160);
+}
+
+.menuBar1:hover .buttonRound a{
+    color: #c79c60;
+    border: 2px solid #c79c60;
+}
+
+.menuBar1:hover h4{
+    color: #c79c60;
+}
+
+
+
